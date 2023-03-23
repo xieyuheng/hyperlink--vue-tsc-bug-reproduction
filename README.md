@@ -4,6 +4,21 @@ Bug reproduction repo for issue: https://github.com/vuejs/language-tools/issues/
 
 > `vue-tsc --noEmit --watch` can not catch errors that can be catched by `vue-tsc --noEmit`.
 
+Dependencies:
+
+```
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vue-tsc": "^1.2.0"
+  }
+```
+
 Reproduction steps:
 
 Run `npm i`.
