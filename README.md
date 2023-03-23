@@ -2,6 +2,8 @@
 
 Bug reproduction repo for issue: https://github.com/vuejs/language-tools/issues/2543
 
+> `vue-tsc --noEmit --watch` can not catch errors that can be catched by `vue-tsc --noEmit`.
+
 Reproduction steps:
 
 Run `npm i`.
